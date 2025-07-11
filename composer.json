@@ -1,0 +1,43 @@
+{
+  "name": "nullodyssey/oauth2-revolut",
+  "description": "Revolut OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "minimum-stability": "stable",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "authorization",
+    "authentication",
+    "idp",
+    "identity",
+    "sso",
+    "single sign on",
+    "revolut",
+    "business api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NullOdyssey",
+      "email": "community@nullodyssey.dev"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "league/oauth2-client": "^2.0",
+    "lcobucci/jwt": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "NullOdyssey\\OAuth2\\Client\\": "src/"
+    }
+  },
+    "autoload-dev": {
+        "psr-4": {
+          "NullOdyssey\\OAuth2\\Client\\Tests\\": "tests/"
+        }
+    },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.75",
+    "phpunit/phpunit": "^12.2"
+  }
+}
